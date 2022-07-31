@@ -1,0 +1,23 @@
+1.git log
+Lets you explore the previous revisions of a project. It provides several
+formatting options for displaying committed snapshots.
+
+2.git merge
+A powerful way to integrate changes from divergent branches. After forking the 
+project history with git branch, git merge lets you put it back together again.
+
+3.git pull
+Pulling is the automated version of git fetch. It downloads a branch from a 
+remote repository, then immediately merges it into the current branch. This is 
+the Git equivalent of svn update.
+
+4.git push
+Pushing is the opposite of fetching (with a few caveats). It lets you move a 
+local branch to another repository, which serves as a convenient way to publish
+contributions. This is like svn commit, but it sends a series of commits 
+instead of a single changeset.
+
+5.git rebase
+Rebasing lets you move branches around, which helps you avoid unnecessary merge
+commits. The resulting linear history is often much easier to understand and 
+explore.
