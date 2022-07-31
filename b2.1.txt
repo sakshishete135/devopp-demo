@@ -1,0 +1,24 @@
+1.git commit
+Takes the staged snapshot and commits it to the project history. Combined with 
+git add, this defines the basic workflow for all Git users.
+
+2.git commit --amend
+Passing the --amend flag to git commit lets you amend the most recent commit. 
+This is very useful when you forget to stage a file or omit important 
+information from the commit message.
+
+3.git config
+A convenient way to set configuration options for your Git installation. 
+You’ll typically only need to use this immediately after installing Git on a 
+new development machine.
+
+4.git fetch
+Fetching downloads a branch from another repository, along with all of its 
+associated commits and files. But, it doesn't try to integrate anything into 
+your local repository. This gives you a chance to inspect changes before 
+merging them with your project.
+
+5.git init
+Initializes a new Git repository. If you want to place a project under revision
+control, this is the first command you need to learn.
+
